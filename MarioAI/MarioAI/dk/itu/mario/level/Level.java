@@ -2,6 +2,7 @@ package dk.itu.mario.level;
 
 import java.io.*;
 
+import ch2009.idsia.mario.engine.GlobalOptions;
 import dk.itu.mario.MarioInterface.LevelInterface;
 import dk.itu.mario.engine.sprites.SpriteTemplate;
 
@@ -218,6 +219,15 @@ public class Level implements LevelInterface
 		level.map = map;
 		level.length = width;
 		level.height = height;
+	}
+	
+	public void convert (ch2009.idsia.mario.engine.level.Level level) {
+		//level = new ch2009.idsia.mario.engine.level.Level(width, height);
+		level.map = map;
+		level.width = width;
+		level.height = height;
+    	level.xExit = xExit;
+    	level.yExit = yExit;
 	}
 	//---------------------------------------------------------------------------------------------------
 

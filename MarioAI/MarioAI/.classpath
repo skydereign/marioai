@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="dk/itu/mario/level/dk/itu/mario/level/" kind="src" path=""/>
+	<classpathentry excluding="dk/itu/mario/level/dk/itu/mario/level/|2009_src/" kind="src" path=""/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="lib/asm-all-3.3.jar"/>
-	<classpathentry kind="lib" path="lib/jdom.jar"/>
-	<classpathentry kind="lib" path="lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="/home/lee/Downloads/marioai/asm-4.0/lib/asm-4.0.jar"/>
+	<classpathentry kind="lib" path="/home/lee/Downloads/marioai/asm-4.0/lib/asm-tree-4.0.jar"/>
+	<classpathentry kind="lib" path="/home/lee/Downloads/marioai/woxJavaBin/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="/home/lee/Downloads/marioai/woxJavaBin/lib/woxSerializer.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
